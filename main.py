@@ -1,1 +1,1 @@
-python_code = __import__('1-hafta.emeklilik')
+python_code = __import__('3-hafta.fal')
