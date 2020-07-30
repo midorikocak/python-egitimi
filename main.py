@@ -1,1 +1,1 @@
-python_code = __import__('3-hafta.fal')
+python_code = __import__('3-hafta.vucutKitle')
