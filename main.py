@@ -1,1 +1,1 @@
-python_code = __import__('7-hafta.sepet')
+python_code = __import__('7-hafta.sayitahmin')

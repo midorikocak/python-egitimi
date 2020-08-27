@@ -29,3 +29,5 @@ while (tahmin != tahminEdilecek):
     if(deneme == 5):
       print("5 adımda bilemediniz. Kaybettiniz.")
       break
+
+# haftaya scope ve global anlat
