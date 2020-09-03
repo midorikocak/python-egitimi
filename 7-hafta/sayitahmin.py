@@ -1,8 +1,6 @@
 import random
 
-zorluk = input("Zorluk derecesi giriniz: (1,2,3)\n")
-
-sonsayi = 10;
+zorluk = int(input("Zorluk derecesi giriniz: (1,2,3)\n"))
 
 if(zorluk == 1):
   sonsayi = 10
@@ -18,7 +16,15 @@ deneme = 0
 
 while (tahmin != tahminEdilecek):
     deneme = deneme + 1
+
+    # burada bug düzelttik
+    
+    if(deneme == 5):
+      print("5 adımda bilemediniz. Kaybettiniz.")
+      break
+
     tahmin = int(input("Bir sayı giriniz:\n"))
+
     if (tahmin < tahminEdilecek):
         print('Küçük')
     elif (tahmin > tahminEdilecek):
@@ -26,8 +32,6 @@ while (tahmin != tahminEdilecek):
     else:
         print("Tebrikler " + str(deneme) + " adımda bildiniz.")
     
-    if(deneme == 5):
-      print("5 adımda bilemediniz. Kaybettiniz.")
-      break
+
 
 # haftaya scope ve global anlat
